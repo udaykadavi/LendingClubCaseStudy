@@ -64,5 +64,5 @@ further details in *Recommendation.xlsx* and *Lending Club Case Study.pdf*
 
 
 ## Contact
-Created by [@udaykadavi] - feel free to contact me!
+Created by [@udaykadavi] - feel free to contact me! <br>
 Contributor - [@2bibhu]
