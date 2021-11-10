@@ -50,7 +50,7 @@ further details in *Recommendation.xlsx* and *Lending Club Case Study.pdf*
 
 
 ## Technologies Used
-#### ** Python libraries **
+#### Python libraries
 * Pandas.
 * numpy.
 * matplotlib.
