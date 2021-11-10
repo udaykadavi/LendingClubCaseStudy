@@ -1,6 +1,4 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Lending Club Case Study using exploratory data analysis(EDA).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -11,42 +9,59 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+This case study is to apply various exploratory data analysis technique to solve the business problem of *consumer finance company* . Solving this assignment will give an idea about how real business problems are solved using EDA.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Business Understanding
+Lending Club is a consumer finance company which specializes in lending various types of loans. The company receives a loan application, the company must decide for loan approval based on the applicant’s profile. Certain factors of risks are associated while making this decision.
+#### Loss of business
+   - Applicant is likely to pay the loan, and company is not approving the loan.
+#### Financial Loss
+   - Applicant may default on the loan, i.e. not pay.
+        
+### Business Objective
+Improve loan approval process to balance revenue from customer who fully pay their loans and financial loss due to customers defaulting.
+
+### Problem Statemenet
+When a person applies for a loan, there are two types of decisions that could be taken by the company:<br>
+   * **Loan accepted**
+   * **Loan rejected**
+<br>
+Lending Club would like for us to do an exploratory data analysis to the past loan applicant’s dataset to understand consumer attributes and loan attributes that drive loan default behavior and thereby the ability to identify risky loan applicants.
+
+### Data Set
+The dataset *loan.csv* contains previous data for loan applicants with the loan default status.
+
+### Data Understanding
+* Loan.csv - the dataset to work on
+* Data_Dictonary.xlsx - covers the defination of all attributes of the dataset
+* Various consumer and loan attributes(details covered in the notebook) in the data set was considered for data analysis.
+    - Annual income,etc.
+
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
+* Any loan applicant with annual **income less than 100K** should go through heightened scrutiny.
+* It's **risky** to offer loan to applicants with **higher DTI and Loan to income ratio**.
+* The higher default rate in **high interest rate category** evidently says it's **risky to offer high interest loan** to customers.
+* Any loan applicant who has a **credit age below 5** years should go through heightened scrutiny.
+further details in *Recommendation.xlsx* and *Lending Club Case Study.pdf*
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+#### Python libraries
+* Pandas.
+* numpy.
+* matplotlib.
+* seaborn.
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+This project was created as part of AI & ML program Sept 2021, Upgrad 
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@udaykadavi] - feel free to contact me! <br>
+Contributor - [@2bibhu]
