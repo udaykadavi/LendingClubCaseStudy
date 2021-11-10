@@ -1,6 +1,4 @@
-# Project Name
-> Lending Club Case Study using exploratory data analysis(EDA).
-
+# Lending Club Case Study using exploratory data analysis(EDA).
 
 ## Table of Contents
 * [General Info](#general-information)
